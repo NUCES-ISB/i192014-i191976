@@ -1,7 +1,7 @@
 name: cifar10 test setup
 on: 
   push:
-    branches: [ Danyal,Faizan ]
+    branches: [ Faizan ]
 jobs:
   build:
     runs-on: ubuntu-latest
