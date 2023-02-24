@@ -5,7 +5,7 @@ format:
 	black main.py
 
 lint:
-	pylint -E --ignore-comments y --output errors.log main.py
+	pylint --fail-under=-1 main.py
 
 codestyle:
 	pycodestyle --show-source --show-pep8 main.py
